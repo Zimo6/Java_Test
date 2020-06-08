@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图案例</title>
+<style>
+     .img{
+     width:100%;
+     margin-top: 150px;
+    }
+</style>
+</head>
+<body>
+<! --轮播图案例-->
+ 1   <img class = "img" src="img/banner_1.jpg" id="lunbotu">
+1<script>
+    var lunbotu = document.getElementById("lunbotu");
+    var flag = 1;
+    setInterval(fun,1000);
+    function fun() {
+        switch (flag) {
+            case 1:
+            {lunbotu.src="img/banner_2.jpg";flag=2;break;}
+            case 2:
+            {lunbotu.src="img/banner_3.jpg";flag=3;break;}
+            case 3:
+            {lunbotu.src="img/banner_1.jpg";flag=1;break;}
+        }
+
+    }
+</script>
+</body>
+</html>

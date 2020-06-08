@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取元素对象</title>
+    <style>
+        img{
+            width: 400px;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+<!--    <img src="img/off.gif" id="light" onclick="fun();">-->
+<div align="center">
+    <img src="img/off.gif" id="light">
+</div>
+
+
+    <script>
+
+    var light = document.getElementById("light");
+    light.onclick = fun1;
+    //代表灯是灭的还是亮的
+    var flag = false;
+
+    function fun1() { //  ***链式编程 document.getElementById("light").onclick = function(){}
+        // alert('我被点了');
+        if (flag) {
+            light.src = "img/off.gif";
+            flag =false;
+        }else{
+            light.src = "img/on.gif";
+            flag = true;
+        }
+    }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动跳转首页</title>
+<style>
+    p{
+        text-align: center;
+        font-size: 50px;
+    }
+    span{
+        color: red;
+    }
+</style>
+
+</head>
+<body>
+    <p>
+        <span id="time">3</span>&nbsp秒之后，自动跳转到首页...
+    </p>
+
+    <script>
+        /*倒计时读秒*/
+        var time = document.getElementById("time");
+
+        var interval = setInterval(fun,1000);
+
+        function fun() {
+            var overtime = time.innerHTML--;//获取文本内容
+            if (overtime == 1){
+                location.href = "https://www.baidu.com"
+                clearInterval(interval);//关闭定时器
+            }
+        }
+        //一秒后返回
+      /*  setTimeout(function () {
+            window.history.back();
+        },1000)*/
+    </script>
+</body>
+</html>

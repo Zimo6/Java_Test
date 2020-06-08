@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- OpenLayers CSS 文件和 JS -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.css" rel="stylesheet">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+		<!-- iclient-openlayers CSS 文件和 JS 文件 -->
+		<link href='http://iclient.supermap.io/dist/openlayers/iclient-openlayers.min.css' rel='stylesheet' />
+		<script type="text/javascript" src="http://iclient.supermap.io/dist/openlayers/iclient-openlayers.min.js"></script>
+		<script>
+
+		</script>
+
+		<title>查看地图</title>
+
+
+	</head>
+
+	<body style=" margin: 0;overflow: hidden;background: #fff;width: 100%;height:100%;position: absolute;top: 0;">
+
+		<!-- 存放地图的div	 -->
+		<div id="map" style="margin:0 auto;margin-top:20px;width: 80%;height: 80%;"></div>
+		<script type="text/javascript">
+			var url = "http://localhost:8090/iserver/services/map-ws2/rest/maps/province";
+			// 初始化地图信息
+
+
+			var map = new ol.Map({
+				target: 'map', // 让id为map的div作为地图的容器
+				controls: ol.control.defaults({
+						attributionOptions: {//这是右下角的版权信息
+							collapsed: false
+						}
+					})
+					.extend([new ol.supermap.control.Logo()]),
+				view: new ol.View({
+					center: [108, 34],// 定义地图显示中心于经度108度，纬度34度处  陕西西安的经纬度
+					zoom: 5,//定义地图显示层级为5  越大就越仔细
+					projection: 'EPSG:4326'//投影
+				})
+			});
+			// 添加图层   可以写在Map里面
+			var layer = new ol.layer.Tile({// 创建一个瓦片图层.
+				source: new ol.source.TileSuperMapRest({
+					url: url,
+					wrapX: true
+				}),
+				projection: 'EPSG:4326',
+			
+			});
+			//添加比例尺控件  添加组件  new 一个实例  然后 加入到 map中
+			scaleControl = new ol.control.ScaleLine();
+			map.addControl(scaleControl);
+
+			map.addLayer(layer);
+			
+		</script>
+	</body>
+</html>

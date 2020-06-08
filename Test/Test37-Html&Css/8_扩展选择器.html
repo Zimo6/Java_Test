@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+
+    <style>
+        div p{
+            color:red;  /*子选择器-div下的p标签生效*/
+        }
+
+        div > p {   /*父选择器 父标签生效*/
+            border: 1px solid;
+        }
+
+        input[type='text']{/*属性选择器*/
+            border: 5px solid;
+        }
+
+        a:link{/*伪类选择器  选择一些元素具有的状态*/
+            color: pink;
+        }
+
+        a:hover{
+            color: green;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a:visited{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>传智播客</p>
+    </div>
+
+    <p>黑马程序员</p>
+
+<div>aaa</div>
+
+    <input type="text" >
+    <input type="password" >
+
+
+    <br>    <br>    <br>
+
+    <a href="https://www.baidu.com">百度</a>
+
+
+
+
+</body>
+</html>

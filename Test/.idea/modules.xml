@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TTTTTTTT/TTTTTTTT.iml" filepath="$PROJECT_DIR$/TTTTTTTT/TTTTTTTT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test01-Random/Test01.iml" filepath="$PROJECT_DIR$/Test01-Random/Test01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test02-ArrayList/Test02.iml" filepath="$PROJECT_DIR$/Test02-ArrayList/Test02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test03-String/Test03.iml" filepath="$PROJECT_DIR$/Test03-String/Test03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test04-Static/Test04-Static.iml" filepath="$PROJECT_DIR$/Test04-Static/Test04-Static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test05-Arrays/Test05-Arrays.iml" filepath="$PROJECT_DIR$/Test05-Arrays/Test05-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test06-Math/Test06-Math.iml" filepath="$PROJECT_DIR$/Test06-Math/Test06-Math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test07-Extends/Test07-Extends.iml" filepath="$PROJECT_DIR$/Test07-Extends/Test07-Extends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test08-Abstract/Test08-Abstract.iml" filepath="$PROJECT_DIR$/Test08-Abstract/Test08-Abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test09-RedBag/Test09-RedBag.iml" filepath="$PROJECT_DIR$/Test09-RedBag/Test09-RedBag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test10-Interface/Test10-Interface.iml" filepath="$PROJECT_DIR$/Test10-Interface/Test10-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test10-Multi/Test10-Multi.iml" filepath="$PROJECT_DIR$/Test10-Multi/Test10-Multi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test11-UsbTest/Test11-UsbTest.iml" filepath="$PROJECT_DIR$/Test11-UsbTest/Test11-UsbTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test12-Final/Test12-Final.iml" filepath="$PROJECT_DIR$/Test12-Final/Test12-Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test13-QuanXian/Test13-QuanXian.iml" filepath="$PROJECT_DIR$/Test13-QuanXian/Test13-QuanXian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test14-Date/Test14-Date.iml" filepath="$PROJECT_DIR$/Test14-Date/Test14-Date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test14-InnerClass/Test14-InnerClass.iml" filepath="$PROJECT_DIR$/Test14-InnerClass/Test14-InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test15-Date/Test15-Date.iml" filepath="$PROJECT_DIR$/Test15-Date/Test15-Date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test16-Calendar/Test16-Calendar.iml" filepath="$PROJECT_DIR$/Test16-Calendar/Test16-Calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test17-System/Test17-System.iml" filepath="$PROJECT_DIR$/Test17-System/Test17-System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test18-StringBuilder/Test18-StringBuilder.iml" filepath="$PROJECT_DIR$/Test18-StringBuilder/Test18-StringBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test19-Integer/Test19-Integer.iml" filepath="$PROJECT_DIR$/Test19-Integer/Test19-Integer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test20-Colletion/Test20-Colletion.iml" filepath="$PROJECT_DIR$/Test20-Colletion/Test20-Colletion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test21-For/Test21-For.iml" filepath="$PROJECT_DIR$/Test21-For/Test21-For.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test22-Generic/Test22-Generic.iml" filepath="$PROJECT_DIR$/Test22-Generic/Test22-Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test23-List/Test23-List.iml" filepath="$PROJECT_DIR$/Test23-List/Test23-List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test24-Set/Test24-Set.iml" filepath="$PROJECT_DIR$/Test24-Set/Test24-Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test25-Collections/Test25-Collections.iml" filepath="$PROJECT_DIR$/Test25-Collections/Test25-Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test25-Map/Test25-Map.iml" filepath="$PROJECT_DIR$/Test25-Map/Test25-Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test26-Exception/Test26-Exception.iml" filepath="$PROJECT_DIR$/Test26-Exception/Test26-Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test27-Thread/Test27-Thread.iml" filepath="$PROJECT_DIR$/Test27-Thread/Test27-Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test28-Lambda/Test28-Lambda.iml" filepath="$PROJECT_DIR$/Test28-Lambda/Test28-Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test29-File/Test29-File.iml" filepath="$PROJECT_DIR$/Test29-File/Test29-File.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test30-DiGui/Test30-DiGui.iml" filepath="$PROJECT_DIR$/Test30-DiGui/Test30-DiGui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test31-IO/Test31-IO.iml" filepath="$PROJECT_DIR$/Test31-IO/Test31-IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test32-Net/Test32-Net.iml" filepath="$PROJECT_DIR$/Test32-Net/Test32-Net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test33-JUnit/Test33-JUnit.iml" filepath="$PROJECT_DIR$/Test33-JUnit/Test33-JUnit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test34-JDBC/Test34-JDBC.iml" filepath="$PROJECT_DIR$/Test34-JDBC/Test34-JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test35-DataSource_jdbcTemplate/Test35-DataSource_jdbcTemplate.iml" filepath="$PROJECT_DIR$/Test35-DataSource_jdbcTemplate/Test35-DataSource_jdbcTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test36-Html/Test36-Html.iml" filepath="$PROJECT_DIR$/Test36-Html/Test36-Html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test37-Html&amp;Css/Test37-Html&amp;Css.iml" filepath="$PROJECT_DIR$/Test37-Html&amp;Css/Test37-Html&amp;Css.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test38-Javascrip/Test38-Javascrip.iml" filepath="$PROJECT_DIR$/Test38-Javascrip/Test38-Javascrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test39-Javascrip高级/Test39-Javascrip高级.iml" filepath="$PROJECT_DIR$/Test39-Javascrip高级/Test39-Javascrip高级.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test40-BootStrap/Test40-BootStrap.iml" filepath="$PROJECT_DIR$/Test40-BootStrap/Test40-BootStrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test40-XML/Test40-XML.iml" filepath="$PROJECT_DIR$/Test40-XML/Test40-XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test41-Tomcat/Test41-Tomcat.iml" filepath="$PROJECT_DIR$/Test41-Tomcat/Test41-Tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test42-Servlet/Test42-Servlet.iml" filepath="$PROJECT_DIR$/Test42-Servlet/Test42-Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test43-Servlet&amp;Http&amp;Request/Test43-Servlet&amp;Http&amp;Request.iml" filepath="$PROJECT_DIR$/Test43-Servlet&amp;Http&amp;Request/Test43-Servlet&amp;Http&amp;Request.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test43-登录案例/Test43-登录案例.iml" filepath="$PROJECT_DIR$/Test43-登录案例/Test43-登录案例.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test43-登录案例(老师)/Test43-登录案例(老师).iml" filepath="$PROJECT_DIR$/Test43-登录案例(老师)/Test43-登录案例(老师).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test44-response/Test44-response.iml" filepath="$PROJECT_DIR$/Test44-response/Test44-response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test45-Cookie&amp;Session/Test45-Cookie&amp;Session.iml" filepath="$PROJECT_DIR$/Test45-Cookie&amp;Session/Test45-Cookie&amp;Session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test46-Case/Test46-Case.iml" filepath="$PROJECT_DIR$/Test46-Case/Test46-Case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test46-EL&amp;JSTL/Test46-EL&amp;JSTL.iml" filepath="$PROJECT_DIR$/Test46-EL&amp;JSTL/Test46-EL&amp;JSTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test47-增删改查/Test47-增删改查.iml" filepath="$PROJECT_DIR$/Test47-增删改查/Test47-增删改查.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test48-Filter&amp;Listener/Test48-Filter&amp;Listener.iml" filepath="$PROJECT_DIR$/Test48-Filter&amp;Listener/Test48-Filter&amp;Listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test49-Jquery基础/Test49-Jquery基础.iml" filepath="$PROJECT_DIR$/Test49-Jquery基础/Test49-Jquery基础.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test50-Jquery高级/Test50-Jquery高级.iml" filepath="$PROJECT_DIR$/Test50-Jquery高级/Test50-Jquery高级.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test51-Ajax&amp;Json/Test51-Ajax&amp;Json.iml" filepath="$PROJECT_DIR$/Test51-Ajax&amp;Json/Test51-Ajax&amp;Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test52-Redis/Test52-Redis.iml" filepath="$PROJECT_DIR$/Test52-Redis/Test52-Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../travel/travel.iml" filepath="$PROJECT_DIR$/../travel/travel.iml" />
+    </modules>
+  </component>
+</project>

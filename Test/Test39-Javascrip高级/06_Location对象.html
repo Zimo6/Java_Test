@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Location对象</title>
+
+</head>
+<body>
+    <input type="button" id="btn" value="刷新">
+    <input type="button" id="goItcast" value="去传智">
+    <script>
+        //reload方法，定义一个按钮，点击按钮，刷新当前页面
+        //1.获取按钮
+        var btn = document.getElementById("btn");
+        //2.绑定单击事件
+        btn.onclick = function(){   //匿名函数
+            //3.刷新页面
+            window.location.reload();
+        }
+
+
+        //获取href
+        var href = location.href ;
+        // alert(href);
+        //点击按钮，去访问www.itcast.cn官网
+        //1.获取按钮
+        var goItcast = document.getElementById("goItcast");
+        //2.绑定单击事件
+        goItcast.onclick = function(){
+            //3.去访问百度官网
+            location.href = "https://www.baidu.com";
+
+
+        }
+        document.write("<br>");
+
+        var href1 = window.location.href;
+        document.write(href1);
+
+        document.write("<br>");
+
+        document.write(location.pathname);
+
+        //一秒后返回
+
+    </script>
+</body>
+</html>

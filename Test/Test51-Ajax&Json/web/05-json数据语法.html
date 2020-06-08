@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //1.定义基本格式（键最好统一用双引号）
+        var person = {
+            "name":"张三",
+            age: 23,
+            'gender':true
+        };
+        //获取name的值
+        var nam1 = person.name;
+        var name2 = person["name"];
+
+        //2.嵌套格式 {} -> []   (值存的数组)
+        var persons = {
+            "person":[
+                {"neme":"张三","age":23,"gender":true},
+                {"neme":"李四","age":24,"gender":true},
+                {"neme":"王五","age":25,"gender":false}
+            ]
+        };
+        //获取王五的值
+        var name3 = persons.person[2].neme;
+        // alert(name3)
+
+        //3.嵌套格式   []———> {}
+        var ps = [
+            {"name": "张三", "age": 23, "gender": true},
+            {"name": "李四", "age": 24, "gender": true},
+            {"name": "王五", "age": 25, "gender": false}
+            ];
+        //alert(ps);
+        //获取李四值
+        alert(ps[1].name);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

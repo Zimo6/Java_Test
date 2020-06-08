@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- OpenLayers CSS 文件和 JS -->
+		<script type="text/javascript" src="../js/include-web.js"></script>
+		<script type="text/javascript" include="layerswitcher" src="../js/include-openlayers.js"></script>
+		<title>查看地图</title>
+
+
+	</head>
+
+	<body style=" margin: 0;overflow: hidden;background: #fff;width: 100%;height:100%;position: absolute;top: 0;">
+
+		<!-- 存放地图的div	 -->
+		<div id="map" style="margin:0 auto;margin-top:20px;width: 80%;height: 80%;"></div>
+		<script type="text/javascript">
+			var url1 = "http://localhost:8090/iserver/services/map-ws2/rest/maps/post1 ";
+			var url2 = "http://localhost:8090/iserver/services/map-ws2/rest/maps/more ";
+			// 初始化地图信息
+
+
+			var map = new ol.Map({
+				// 找id为MAP的元素
+				target: 'map',
+				// 创建一个控制器
+				controls: ol.control.defaults({
+						attributionOptions: {
+							collapsed: false
+						}
+					})
+					.extend([new ol.supermap.control.Logo()]),
+				//创建一个view
+				view: new ol.View({
+					center: [0, 0],
+					zoom: 2,
+					projection: 'EPSG:4326'
+				}),
+				// 图层组
+				layers: [
+					new ol.layer.Group({
+
+						
+						title: resources.text_switchLayer,
+						layers: [
+							new ol.layer.Tile({
+								title: 'post',
+								type: 'base',
+								visible: true,
+								source: new ol.source.TileSuperMapRest({
+									url: url1
+								}),
+							}),
+							new ol.layer.Tile({
+								title: 'load',
+								type: 'base',
+								visible: false,
+								source: new ol.source.TileSuperMapRest({
+									url: url2
+								}),
+
+							})
+						],
+					}),
+				] //最后一个成员不要逗号或者封号
+			});
+
+
+			var layerSwitcher = new ol.control.LayerSwitcher({});
+			map.addControl(layerSwitcher);
+			//添加比例尺控件  添加组件  new 一个实例  然后 加入到 map中
+			scaleControl = new ol.control.ScaleLine();
+			map.addControl(scaleControl);
+		</script>
+	</body>
+</html>

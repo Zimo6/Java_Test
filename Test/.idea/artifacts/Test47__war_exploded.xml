@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Test47-增删改查:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Test47__war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Test47-增删改查/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Test47-增删改查" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
